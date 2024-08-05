@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.container{
+  max-width: 100%;
+  background: url('src/assets/hero-image-github-profile.png') no-repeat;
+  background-size: 100% 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background-color: #20293A;
+}
+
+.username{
+  min-width: 40%;
+  height: 60px;
+  background-color: #222534;
+  color: #353f51;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+  border-radius: 12px;
+  gap: 10px;
+}
+
+.username img{
+  margin-left: 10px;
+}
+
+::placeholder{
+  color: #343d50;
+}
+
+.username input{
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+  margin: 8px;
+  font-size: 18px;
+  color: white;
+}
+
+.main-section{
+ width: 100%;
+}
+
+.header{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 170px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header img{
+  width: 150px;
+  height: 150px;
+  border: solid #20293a 15px;
+  border-radius: 100%;
+}
+
+.header div{
+  border-radius: 12px;
+  height: 60px;
+  background-color: #111629;
+  padding: 8px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 250px;
+
+}
+
+.header div .title{
+  color: #343d50;
+  padding: 8px;
+}
+
+.header div .response{
+  color: white;
+  padding: 8px;
+}
+
+.header .separation{
+  color: #343d50;
+  font-size: 24px;
+}
+
+.main-titles{
+  margin: 30px 0;
+  width: 300px;
+}
+
+.main-titles h2{
+  color: #ccd4de;
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.main-titles p{
+  color: #CDD5E0;
+  font-size: 18px;
+}
+
+.box{
+  background-color: #1D1B48;
+}
+
+.page{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 30px 0;
+}
+
+.box{
+  padding: 25px;
+  min-width: 350px;
+  border-radius: 12px;
+  color: #ccd4de;
+}
+
+.box h4{
+  color: #CDD5E0;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.box p{
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+.box .icons{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.box .icons div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer{
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer > a{
+  cursor: pointer;
+  text-decoration: none;
+  color: #CDD5E0;
+}
